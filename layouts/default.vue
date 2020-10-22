@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- https://emoji-css.afeld.me/ で絵文字を設定 -->
     <Navbar />
     <section class="main-content columns">
       <aside class="column is-2 section">
@@ -20,6 +21,27 @@
   </div>
 </template>
 
+<style>
+body,
+p,
+textarea,
+button {
+  font-family: 'IBM Plex Sans', a-otf-ud-shin-go-pr6n, sans-serif !important;
+}
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.bold,
+.has-text-weight-bold,
+strong {
+  font-family: 'IBM Plex Sans', fot-udkakugo-large-pr6n, sans-serif !important;
+}
+</style>
+
 <script>
 import Navbar from '~/components/Navbar'
 
@@ -31,14 +53,14 @@ export default {
     return {
       items: [
         {
-          title: 'Home',
+          title: 'ホーム',
           icon: 'home',
           to: { name: 'index' },
         },
         {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' },
+          title: 'アクセス',
+          icon: 'map',
+          to: { name: 'access' },
         },
       ],
     }
