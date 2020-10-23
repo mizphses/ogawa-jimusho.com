@@ -1,0 +1,16 @@
+@import '~bulma/sass/utilities/_all';
+
+$primary: #225193;
+$primary-invert: findcolorinvert($primary);
+$success: #3cb371;
+$success-invert: findcolorinvert($success);
+$family-primary: $family-sans-serif;
+$family-sans-serif: 'IBM Plex Sans', a-otf-ud-shin-go-pr6n, sans-serif;
+
+$colors: (
+  "primary": ($primary, $primary-invert),
+  "success": ($success, $success-invert)
+);
+
+@import '~bulma';
+@import '~buefy/src/scss/buefy';

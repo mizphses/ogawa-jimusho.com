@@ -15,13 +15,14 @@
     </template>
 
     <template slot="end">
-      <b-navbar-item tag="div">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light"> Log in </a>
-        </div>
+      <b-navbar-item 
+        href="tel:0862714650"
+      >
+        <i class="em em-telephone" aria-role="presentation" aria-label="telephone" />
+        <br />
+        <span class="has-text-weight-bold is-size-4 has-text-color-success">
+          086-271-4650
+        </span>
       </b-navbar-item>
     </template>
   </b-navbar>
