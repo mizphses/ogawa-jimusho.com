@@ -17,7 +17,7 @@ h6,
 .bold,
 .has-text-weight-bold,
 strong {
-  font-family: 'IBM Plex Sans', fot-udkakugo-large-pr6n, sans-serif !important;
+  font-family: 'IBM Plex Sans', fot-udkakugo-large-pr6n, sans-serif;
 }
 </style>
 
@@ -27,22 +27,6 @@ import Navbar from '~/components/Navbar'
 export default {
   components: {
     Navbar,
-  },
-  data() {
-    return {
-      items: [
-        {
-          title: 'ホーム',
-          icon: 'home',
-          to: { name: 'index' },
-        },
-        {
-          title: 'アクセス',
-          icon: 'map',
-          to: { name: 'access' },
-        },
-      ],
-    }
   },
 }
 </script>

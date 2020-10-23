@@ -1,6 +1,26 @@
 <template>
   <WakuHome>
     <section class="section content">
+    <h2 class="title is-3 has-text-grey">ご連絡先</h2>
+    <p>随時ご対応しております。お気軽にお問い合わせください!</p>
+    <table class="table is-hoverable is-fullwidth">
+      <tbody>
+        <tr>
+          <td>電話</td>
+          <td><a href="tel:0862713313">086-271-3313</a></td>
+        </tr>
+        <tr>
+          <td>メール</td>
+          <td><a href="mailto:nozomu-ogawa@tkcnf.or.jp">nozomu-ogawa@tkcnf.or.jp</a></td>
+        </tr>
+        <tr>
+          <td>FAX</td>
+          <td>086-271-4655</td>
+        </tr>
+      </tbody>
+    </table>
+    </section>
+    <section class="section content">
       <h2 class="title is-3 has-text-grey">アクセス</h2>
       <h3 class="title is-4 has-text-grey">住所</h3>
       <p>
@@ -28,7 +48,11 @@
         </li>
         <li>
           <a href="http://www.okayama-kido.co.jp/korakuen/">
-            <i class="em em-peach" aria-role="presentation" aria-label="PEACH" />
+            <i
+              class="em em-peach"
+              aria-role="presentation"
+              aria-label="PEACH"
+            />
             後楽園・夢二郷土美術館直行バス（10分程度）
           </a>
         </li>
@@ -58,7 +82,8 @@
       <h4>タクシー・自家用車・徒歩</h4>
       <ul type="disc">
         <li>
-          後楽園より蓬莱橋を渡ってすぐです。「焼肉だるま 浜店」向かいにあります。
+          後楽園より蓬莱橋を渡ってすぐです。「焼肉だるま
+          浜店」向かいにあります。
         </li>
       </ul>
     </section>

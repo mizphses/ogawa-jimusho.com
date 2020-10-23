@@ -8,8 +8,14 @@ $family-primary: $family-sans-serif;
 $family-sans-serif: 'IBM Plex Sans', a-otf-ud-shin-go-pr6n, sans-serif;
 
 $colors: (
-  "primary": ($primary, $primary-invert),
-  "success": ($success, $success-invert)
+  'primary': (
+    $primary,
+    $primary-invert,
+  ),
+  'success': (
+    $success,
+    $success-invert,
+  ),
 );
 
 @import '~bulma';

@@ -15,11 +15,12 @@
     </template>
 
     <template slot="end">
-      <b-navbar-item 
-        href="tel:0862714650"
-      >
-        <i class="em em-telephone" aria-role="presentation" aria-label="telephone" />
-        <br />
+      <b-navbar-item href="tel:0862714650">
+        <i
+          class="em em-telephone"
+          aria-role="presentation"
+          aria-label="telephone"
+        />
         <span class="has-text-weight-bold is-size-4 has-text-color-success">
           086-271-4650
         </span>
