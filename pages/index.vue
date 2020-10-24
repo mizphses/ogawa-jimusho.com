@@ -1,21 +1,13 @@
 <template>
   <div>
-    <section class="hero is-medium bg-img">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title family-serif has-text-centered ts is-size-2">
-            あなたとともに、この道を歩む。
-          </h1>
-        </div>
-      </div>
-    </section>
+    <Hero mainpic="/hero/load.jpg">あなたと共に、この道を歩む。</Hero>
     <WakuHome>
       <div style="height: 2em" />
       <h1 class="tk-heisei-maru-gothic-std is-size-3 has-text-centered">
         所長からのご挨拶
       </h1>
       <div style="height: 2em" />
-      <div class="container columns">
+      <div class="container is-fluid columns">
         <aside class="column is-4 section">
           <div class="is-horisonal-center">
             <img src="~/assets/nozomu-ogawa.jpg" />
@@ -72,7 +64,7 @@
         所長略歴
       </h1>
       <div style="height: 2em" />
-      <figure class="wp-block-table">
+      <figure class="wp-block-table" style="padding: 1em;">
         <table class="table is-hoverable is-fullwidth">
           <tbody>
             <tr>
@@ -136,26 +128,9 @@ export default {
 </script>
 
 <style scoped>
-.bg-img {
-  background: url('~assets/head_load.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #999;
-}
 .family-serif {
   font-family: a-otf-ryumin-pr6n, serif !important;
   font-weight: 400;
-}
-.family-serif.title {
-  font-family: tbudmincho-std, serif !important;
-  font-weight: 600;
-}
-/* stylelint-disable */
-.ts {
-  color: black;
-  text-shadow: 0px 0px 4px #fff;
 }
 .is-horizontal-center {
   position: absolute;
@@ -165,5 +140,4 @@ export default {
   bottom: 0;
   margin: auto;
 }
-/* stylelint-enable */
 </style>

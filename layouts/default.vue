@@ -3,6 +3,7 @@
     <!-- https://emoji-css.afeld.me/ で絵文字を設定 -->
     <Navbar />
     <nuxt />
+    <Footer />
   </div>
 </template>
 
@@ -14,19 +15,21 @@ h3,
 h4,
 h5,
 h6,
+strong,
 .bold,
-.has-text-weight-bold,
-strong {
+.has-text-weight-bold {
   font-family: 'IBM Plex Sans', fot-udkakugo-large-pr6n, sans-serif;
 }
 </style>
 
 <script>
 import Navbar from '~/components/Navbar'
+import Footer from '~/components/Footer'
 
 export default {
   components: {
     Navbar,
-  },
+    Footer
+  }
 }
 </script>

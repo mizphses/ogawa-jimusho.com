@@ -1,91 +1,74 @@
 <template>
-  <WakuHome>
-    <section class="section content">
-    <h2 class="title is-3 has-text-grey">ご連絡先</h2>
-    <p>随時ご対応しております。お気軽にお問い合わせください!</p>
-    <table class="table is-hoverable is-fullwidth">
-      <tbody>
-        <tr>
-          <td>電話</td>
-          <td><a href="tel:0862713313">086-271-3313</a></td>
-        </tr>
-        <tr>
-          <td>メール</td>
-          <td><a href="mailto:nozomu-ogawa@tkcnf.or.jp">nozomu-ogawa@tkcnf.or.jp</a></td>
-        </tr>
-        <tr>
-          <td>FAX</td>
-          <td>086-271-4655</td>
-        </tr>
-      </tbody>
-    </table>
-    </section>
-    <section class="section content">
-      <h2 class="title is-3 has-text-grey">アクセス</h2>
-      <h3 class="title is-4 has-text-grey">住所</h3>
-      <p>
-        〒703-8256
-        <br />
-        岡山県岡山市中区浜2-2-3
-      </p>
-      <hr />
-      <h3 class="title is-4 has-text-grey">アクセス方法</h3>
-      <h4>
-        ⑴ JR岡山駅より岡電バスをご利用になられる場合
-        【最寄り：蓬莱橋・夢二郷土美術館前】
-      </h4>
-      <ul type="disc">
-        <li>
-          <strong>岡山駅①番乗り場から。</strong>
-          乗車前に系統番号をご確認ください。
-        </li>
-        <li>
-          <a
-            href="http://www.okayama-kido.co.jp/bus/jikoku/pdf190316a/15_18_fujiwara.pdf"
-          >
-            [18] 天満屋・後楽園経由 藤原団地 行（20分程度）
-          </a>
-        </li>
-        <li>
-          <a href="http://www.okayama-kido.co.jp/korakuen/">
-            <i
-              class="em em-peach"
-              aria-role="presentation"
-              aria-label="PEACH"
-            />
-            後楽園・夢二郷土美術館直行バス（10分程度）
-          </a>
-        </li>
-      </ul>
-      <h4>
-        ⑵ JR岡山駅より宇野バスをご利用になられる場合 【最寄り：後楽園前・浜】
-      </h4>
-      <ul type="disc">
-        <li>
-          <a href="https://korakuen-bus.jp"
-            ><strong>後楽園バス</strong>：岡山駅①番乗り場から（10分程度）</a
-          >
-        </li>
-        <li>
-          <a href="http://www.unobus.co.jp/ubjikoku.html?20190831"
-            ><strong>東岡山線</strong>：岡山駅⑪番乗り場から（20分程度）</a
-          >
-        </li>
-      </ul>
-      <h4>⑶ JR山陽本線【最寄り：西川原】</h4>
-      <ul type="disc">
-        <li>
-          山陽本線
-          「西川原・就実」駅で降車後「プラザホテル」に向かってください。プラザホテルに向かって右の道を通ります。
-        </li>
-      </ul>
-      <h4>タクシー・自家用車・徒歩</h4>
-      <ul type="disc">
-        <li>
-          後楽園より蓬莱橋を渡ってすぐです。「焼肉だるま
-          浜店」向かいにあります。
-        </li>
-      </ul>
-    </section>
-  </WakuHome>
+  <div>
+    <Hero mainpic="/hero/office.jpg">アクセス</Hero>
+    <WakuHome>
+      <section class="section content">
+        <h2 class="title is-3 has-text-grey">アクセス</h2>
+        <h3 class="title is-4 has-text-grey">住所</h3>
+        <p>
+          〒703-8256
+          <br />
+          岡山県岡山市中区浜2-2-3
+        </p>
+        <hr />
+        <h3 class="title is-4 has-text-grey">アクセス方法</h3>
+        <h4>
+          ⑴ JR岡山駅より岡電バスをご利用になられる場合
+          【最寄り：蓬莱橋・夢二郷土美術館前】
+        </h4>
+        <ul type="disc">
+          <li>
+            <strong>岡山駅①番乗り場から。</strong>
+            乗車前に系統番号をご確認ください。
+          </li>
+          <li>
+            <a
+              href="http://www.okayama-kido.co.jp/bus/jikoku/pdf190316a/15_18_fujiwara.pdf"
+            >
+              [18] 天満屋・後楽園経由 藤原団地 行（20分程度）
+            </a>
+          </li>
+          <li>
+            <a href="http://www.okayama-kido.co.jp/korakuen/">
+              <i
+                class="em em-peach"
+                aria-role="presentation"
+                aria-label="PEACH"
+              />
+              後楽園・夢二郷土美術館直行バス（10分程度）
+            </a>
+          </li>
+        </ul>
+        <h4>
+          ⑵ JR岡山駅より宇野バスをご利用になられる場合 【最寄り：後楽園前・浜】
+        </h4>
+        <ul type="disc">
+          <li>
+            <a href="https://korakuen-bus.jp"
+              ><strong>後楽園バス</strong>：岡山駅①番乗り場から（10分程度）</a
+            >
+          </li>
+          <li>
+            <a href="http://www.unobus.co.jp/ubjikoku.html?20190831"
+              ><strong>東岡山線</strong>：岡山駅⑪番乗り場から（20分程度）</a
+            >
+          </li>
+        </ul>
+        <h4>⑶ JR山陽本線【最寄り：西川原】</h4>
+        <ul type="disc">
+          <li>
+            山陽本線
+            「西川原・就実」駅で降車後「プラザホテル」に向かってください。プラザホテルに向かって右の道を通ります。
+          </li>
+        </ul>
+        <h4>タクシー・自家用車・徒歩</h4>
+        <ul type="disc">
+          <li>
+            後楽園より蓬莱橋を渡ってすぐです。「焼肉だるま
+            浜店」向かいにあります。
+          </li>
+        </ul>
+      </section>
+    </WakuHome>
+  </div>
 </template>
