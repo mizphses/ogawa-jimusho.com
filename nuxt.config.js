@@ -54,9 +54,15 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     '@nuxtjs/style-resources',
+    '@nuxtjs/axios',
     ['nuxt-buefy', { css: false }],
+    '@nuxtjs/sitemap',
   ],
-
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://www.ogawa-jimusho.com',
+    generate: true,
+  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 }
