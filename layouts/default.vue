@@ -20,6 +20,9 @@ strong,
 .has-text-weight-bold {
   font-family: 'IBM Plex Sans', fot-udkakugo-large-pr6n, sans-serif;
 }
+html{
+  font-feature-settings: "palt";
+}
 </style>
 
 <script>

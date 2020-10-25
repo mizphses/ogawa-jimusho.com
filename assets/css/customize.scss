@@ -4,6 +4,8 @@ $primary: #225193;
 $primary-invert: findcolorinvert($primary);
 $success: #3cb371;
 $success-invert: findcolorinvert($success);
+$info: #f5eda0;
+$info-invert: findcolorinvert($success);
 $family-primary: 'IBM Plex Sans', a-otf-ud-shin-go-pr6n, sans-serif;
 
 $colors: (
@@ -14,6 +16,10 @@ $colors: (
   'success': (
     $success,
     $success-invert,
+  ),
+  'info': (
+    $info,
+    $info-invert,
   ),
 );
 

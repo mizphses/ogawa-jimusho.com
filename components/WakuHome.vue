@@ -12,7 +12,7 @@
         </ul>
       </aside>
 
-      <div class="column is-10">
+      <div class="column is-9">
         <slot />
       </div>
     </section>
@@ -29,7 +29,7 @@ export default {
           to: { name: 'index' },
         },
         {
-          title: 'アクセス・ご連絡',
+          title: 'アクセス',
           icon: 'map',
           to: { name: 'access' },
         },
