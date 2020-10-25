@@ -9,6 +9,7 @@
       <template slot="start">
         <b-navbar-item href="/"> ホーム </b-navbar-item>
         <b-navbar-item href="our_business"> 業務内容 </b-navbar-item>
+        <b-navbar-item href="/access"> アクセス </b-navbar-item>
       </template>
 
       <template slot="end">
