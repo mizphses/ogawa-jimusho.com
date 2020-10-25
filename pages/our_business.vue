@@ -16,13 +16,13 @@
       <section class="hero is-large">
         <div class="hero-body">
           <div class="container">
-            <p class="title family-serif1 has-text-centered is-size-2">
+            <p class="title family-serif has-text-centered is-size-2">
               その他にもさまざまな業務に対応しております
             </p>
-            <p class="subtitle family-serif2 has-text-centered is-size-3">
+            <p class="subtitle family-serif has-text-centered is-size-3">
               お気軽にお問い合わせください
             </p>
-            <div class="subtitle family-serif2 has-text-centered is-size-3">
+            <div class="subtitle has-text-centered is-size-3">
               <span class="button is-info" @click="isCardModalActive = true">
                 お問い合わせはこちら
               </span>
@@ -85,10 +85,7 @@ export default {
   font-weight: 600;
 }
 .family-serif1 {
-  font-family: a-otf-futo-min-a101-pr6n, serif;
+  font-family: "A1明朝",	"A1 Mincho", serif;
   font-weight: 400;
-}
-.family-serif2 {
-  font-family: a-otf-ryumin-pr6n, serif;
 }
 </style>
