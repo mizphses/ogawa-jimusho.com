@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero mainpic="/hero/load.jpg">あなたと共に、この道を歩む。</Hero>
+    <Hero mainpic="/hero/load.webp">あなたと共に、この道を歩む。</Hero>
     <WakuHome>
       <div style="height: 2em" />
       <h1 class="tk-heisei-maru-gothic-std is-size-3 has-text-centered">
@@ -10,7 +10,7 @@
       <div class="container is-fluid columns">
         <aside class="column is-4 section">
           <div class="is-horisonal-center">
-            <img src="~/assets/nozomu-ogawa.jpg" />
+            <img src="~/assets/nozomu-ogawa.webp" />
           </div>
           <p class="family-serif has-text-centered">
             所長・税理士&emsp;<span class="is-size-3">尾川 望</span>
