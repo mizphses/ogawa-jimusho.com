@@ -1,15 +1,24 @@
 <template>
   <div>
-    <Hero mainpic="/hero/office.jpg">アクセス</Hero>
+    <Hero mainpic="/hero/office.webp">アクセス</Hero>
     <WakuHome>
       <section class="section content">
-        <h2 class="title is-3 has-text-grey">アクセス</h2>
-        <h3 class="title is-4 has-text-grey">住所</h3>
+        <h3 class="title is-4 has-text-grey">所在地</h3>
         <p>
           〒703-8256
           <br />
           岡山県岡山市中区浜2-2-3
         </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13125.546141022329!2d133.9354857!3d34.6701927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85e72bc5e9ccb0e1!2z5bC-5bed5pyb56iO55CG5aOr5LqL5YuZ5omA44O75qCq5byP5Lya56S-5bC-5bed57WM5Za244Oq44K144O844OB44K744Oz44K_44O8!5e0!3m2!1sja!2sjp!4v1603589177216!5m2!1sja!2sjp"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
         <hr />
         <h3 class="title is-4 has-text-grey">アクセス方法</h3>
         <h4>

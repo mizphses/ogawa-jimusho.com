@@ -30,16 +30,16 @@ import Navbar from '~/components/Navbar'
 import Footer from '~/components/Footer'
 
 export default {
-  head() {
-    return {
-      htmlAttrs: {
-        lang: 'ja'
-      },
-    }
-  },
   components: {
     Navbar,
     Footer,
+  },
+  head() {
+    return {
+      htmlAttrs: {
+        lang: 'ja',
+      },
+    }
   },
 }
 </script>
