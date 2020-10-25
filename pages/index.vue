@@ -118,7 +118,7 @@ export default {
 
 <style scoped>
 .family-serif {
-  font-family: a-otf-ryumin-pr6n, serif !important;
+  font-family: "A1明朝", "A1 Mincho", serif !important;
   font-weight: 400;
 }
 .is-horizontal-center {

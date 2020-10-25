@@ -18,7 +18,7 @@ h6,
 strong,
 .bold,
 .has-text-weight-bold {
-  font-family: 'IBM Plex Sans', fot-udkakugo-large-pr6n, sans-serif;
+  font-family: 'IBM Plex Sans', "UD新ゴ R", "UD Shin Go Regular", sans-serif;
 }
 html {
   font-feature-settings: 'palt';
