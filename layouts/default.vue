@@ -20,8 +20,8 @@ strong,
 .has-text-weight-bold {
   font-family: 'IBM Plex Sans', fot-udkakugo-large-pr6n, sans-serif;
 }
-html{
-  font-feature-settings: "palt";
+html {
+  font-feature-settings: 'palt';
 }
 </style>
 
@@ -32,7 +32,7 @@ import Footer from '~/components/Footer'
 export default {
   components: {
     Navbar,
-    Footer
-  }
+    Footer,
+  },
 }
 </script>

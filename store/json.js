@@ -10,5 +10,5 @@ export const getters = {
   getAll: (state) => {
     // return state.json
     return state.data
-  }
+  },
 }

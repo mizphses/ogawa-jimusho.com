@@ -13,8 +13,7 @@
             <img src="~/assets/nozomu-ogawa.jpg" />
           </div>
           <p class="family-serif has-text-centered">
-            所長・税理士&emsp;
-            <span class="is-size-3"> 尾川　望 </span>
+            所長・税理士&emsp;<span class="is-size-3">尾川 望</span>
           </p>
         </aside>
         <div class="column is-8">
@@ -64,17 +63,17 @@
         所長略歴
       </h1>
       <div style="height: 2em" />
-      <figure class="wp-block-table" style="padding: 1em;">
+      <figure class="wp-block-table" style="padding: 1em">
         <table class="table is-hoverable is-fullwidth">
           <tbody>
             <tr>
               <td>昭和38年</td>
-              <td>岡山県英田郡美作町（現　美作市）生まれ</td>
+              <td>岡山県英田郡美作町（現 美作市）生まれ</td>
             </tr>
             <tr>
               <td>昭和60年</td>
               <td>
-                明治大　商学部商学科卒業<br />尾川肝税理士事務所（現
+                明治大学商学部商学科卒業<br />尾川肝税理士事務所（現
                 当事務所）就職
               </td>
             </tr>
@@ -88,23 +87,23 @@
             </tr>
             <tr>
               <td>平成14年</td>
-              <td>尾川望税理士事務所　所長就任</td>
+              <td>尾川望税理士事務所 所長就任</td>
             </tr>
             <tr>
               <td>平成15年</td>
-              <td>岡山大学大学院法学研究科　修士課程修了</td>
+              <td>岡山大学大学院法学研究科 修士課程修了</td>
             </tr>
             <tr>
               <td>平成26年</td>
-              <td>岡山大学大学院　法務研究科(法科大学院)　非常勤講師就任</td>
+              <td>岡山大学大学院 法務研究科(法科大学院) 非常勤講師就任</td>
             </tr>
             <tr>
               <td>平成30年</td>
-              <td>中国税理士会 税務研究所　研究員　就任</td>
+              <td>中国税理士会 税務研究所研究員 就任</td>
             </tr>
             <tr>
               <td>令和2年</td>
-              <td>岡山経済同友会　企業法務・会計委員会　委員長就任</td>
+              <td>岡山経済同友会 企業法務・会計委員会委員長 就任</td>
             </tr>
           </tbody>
         </table>
@@ -114,14 +113,12 @@
 </template>
 
 <script>
-import Card from '~/components/Card'
 import WakuHome from '~/components/WakuHome'
 
 export default {
   name: 'HomePage',
 
   components: {
-    Card,
     WakuHome,
   },
 }

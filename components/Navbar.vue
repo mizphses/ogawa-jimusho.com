@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar class="navbar" fixed-top=true>
+    <b-navbar class="navbar" fixed-top="true">
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <img src="~/assets/logo.svg" height="80" width="200" />
@@ -14,10 +14,7 @@
       <template slot="end">
         <b-navbar-item tag="div">
           <div class="buttons">
-            <b-btn
-              @click="isCardModalActive = true"
-              class="button is-info"
-            >
+            <b-btn class="button is-info" @click="isCardModalActive = true">
               お問い合わせはこちら！
             </b-btn>
           </div>
@@ -36,7 +33,10 @@
                 ℡ 086-271-4650
               </a>
               <br />
-              <a class="has-text-weight-bold is-size-4" href="mailto:nozomu-ogawa@tkcnf.or.jp">
+              <a
+                class="has-text-weight-bold is-size-4"
+                href="mailto:nozomu-ogawa@tkcnf.or.jp"
+              >
                 nozomu-ogawa@tkcnf.or.jp
               </a>
             </p>
@@ -53,7 +53,7 @@ export default {
     return {
       isCardModalActive: false,
     }
-  }
+  },
 }
 </script>
 <style scoped>

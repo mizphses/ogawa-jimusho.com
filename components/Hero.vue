@@ -1,23 +1,35 @@
 <template>
-    <section class="hero is-medium bg-img" v-bind:style='{ background: "url(" + encodeURI(mainpic) + ")", 
-  backgroundRepeat: "no-repeat", backgroundAttachment: "fixed",  backgroundPosition: "center", backgroundSize: "cover" }'>
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title family-serif has-text-centered ts is-size-2">
-            <slot />
-          </h1>
-        </div>
+  <section
+    class="hero is-medium bg-img"
+    :style="{
+      background: 'url(' + encodeURI(mainpic) + ')',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+    }"
+  >
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title family-serif has-text-centered ts is-size-2">
+          <slot />
+        </h1>
       </div>
-    </section>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
-    props: ['mainpic'],
-    data(){
-        return{
-        }
+  props: {
+    mainpic: {
+      type: String,
+      default: '',
     },
+  },
+  data() {
+    return {}
+  },
 }
 </script>
 
