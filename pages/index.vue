@@ -10,7 +10,7 @@
       <div class="container is-fluid columns">
         <aside class="column is-4 section">
           <div class="is-horisonal-center">
-            <img src="~/assets/nozomu-ogawa.webp" />
+            <img src="~/assets/nozomu-ogawa.webp" alt="尾川望" />
           </div>
           <p class="family-serif has-text-centered">
             所長・税理士&emsp;<span class="is-size-3">尾川 望</span>
