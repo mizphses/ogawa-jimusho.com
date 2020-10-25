@@ -52,8 +52,11 @@ export default {
     '@nuxtjs/style-resources',
     ['nuxt-buefy', { css: false }],
     '@nuxtjs/sitemap',
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-KPWJF9J' }],
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    id: 'GTM-KPWJF9J'
+  },
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://www.ogawa-jimusho.com',
