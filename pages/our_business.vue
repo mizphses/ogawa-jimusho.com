@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero mainpic="/hero/ourbusiness.png">業務内容</Hero>
+    <Hero mainpic="/hero/ourbusiness.webp">業務内容</Hero>
     <main class="container is-fluid">
       <div
         v-for="item in jsonAll"
