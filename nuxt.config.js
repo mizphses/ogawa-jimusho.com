@@ -51,7 +51,6 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     '@nuxtjs/style-resources',
-    '@nuxtjs/axios',
     ['nuxt-buefy', { css: false }],
     '@nuxtjs/sitemap',
   ],
