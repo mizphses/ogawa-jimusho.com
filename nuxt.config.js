@@ -10,7 +10,7 @@ export default {
         type: 'text/javascript',
       },
     ],
-    title: 'ogawa-jimusho',
+    title: '尾川望税理士事務所',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

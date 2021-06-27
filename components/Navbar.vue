@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar class="navbar" fixed-top=true>
+    <b-navbar class="navbar" fixed-top="True">
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <img src="~/assets/logo.svg" height="80" width="200" alt="尾川税理士事務所" />
@@ -15,7 +15,7 @@
       <template slot="end">
         <b-navbar-item tag="div">
           <div class="buttons">
-            <b-btn class="button is-info" @click="isCardModalActive = true">
+            <b-btn class="button is-info" @click="isCardModalActive = True">
               お問い合わせはこちら！
             </b-btn>
           </div>
