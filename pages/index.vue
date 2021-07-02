@@ -2,6 +2,18 @@
   <div>
     <Hero mainpic="/hero/load.webp">あなたと共に、この道を歩む。</Hero>
     <div style="height: 2em" />
+    <div class="tile is-parent">
+      <article class="tile is-child notification">
+        <div class="content">
+          <p class="title">更新情報</p>
+          <div class="content">
+            <a href="/magazines">
+              月刊税務事例2月号・6月号　掲載
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
     <h1 class="tk-heisei-maru-gothic-std is-size-3 has-text-centered">
       所長からのご挨拶
     </h1>
@@ -103,10 +115,6 @@
           <tr>
             <td>令和2年</td>
             <td>岡山経済同友会 企業法務・会計委員会委員長 就任</td>
-          </tr>
-          <tr>
-            <td>令和3年</td>
-            <td><a href="/magazines">月刊税務事例2月号・6月号　掲載</a></td>
           </tr>
         </tbody>
       </table>
